@@ -1,0 +1,46 @@
+.app {
+  display: grid;
+  place-content: center;
+  min-height: 100vh;
+  text-align: center;
+  gap: 1rem;
+  transition: all 1s ease-in-out;
+}
+
+.dark {
+  background: #333;
+  color: #ddd;
+}
+
+.light {
+  background: #ddd;
+  color: #333;
+}
+
+.theme__button {
+  display: flex;
+  padding: 1rem;
+  border-radius: 50%;
+  cursor: pointer;
+  border: none;
+  background: radial-gradient(circle at 30% 30%, #dddddd72 1%, #111 70%);
+  color: #ddd;
+  width: 3rem;
+  justify-self: flex-end;
+}
+
+.counter__actions {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  justify-self: center;
+}
+
+.counter__actions button {
+  padding: 1rem;
+  background: radial-gradient(circle at 30% 30%, #dddddd72 1%, #111 70%);
+  color: #ddd;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+}
